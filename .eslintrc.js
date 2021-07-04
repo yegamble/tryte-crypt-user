@@ -40,6 +40,7 @@ module.exports = {
       env: {
         browser: false,
         node: true,
+        es6: true,
       },
       plugins: ['node'],
       extends: ['plugin:node/recommended'],
